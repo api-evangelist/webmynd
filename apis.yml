@@ -1,7 +1,22 @@
 aid: webmynd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webmynd.png
 name: WebMynd
-description: WebMynd is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WebMynd, later known as Trigger.io, was a 500 Global backed startup that built Forge, a toolkit
+  for building cross-platform mobile applications from HTML, JavaScript, and CSS with native device access.
+  Surfaced as a 500 Global portfolio company and added to the API Evangelist network. The company now appears
+  inactive, its trigger.io domain no longer serves a live website (only email MX/SPF records remain) and no
+  API, developer documentation, or SDK surface could be located during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/webmynd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile
+- Cross-Platform
+- Developer Tools
+- HTML5
+- SDK
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/webmynd-domain-security.yml
 - type: Website
   url: https://trigger.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
