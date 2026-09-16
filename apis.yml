@@ -25,9 +25,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webmynd.pn
 name: WebMynd
 description: WebMynd, later known as Trigger.io, was a 500 Global backed startup that built Forge, a toolkit
   for building cross-platform mobile applications from HTML, JavaScript, and CSS with native device access.
-  Surfaced as a 500 Global portfolio company and added to the API Evangelist network. The company now appears
-  inactive, its trigger.io domain no longer serves a live website (only email MX/SPF records remain) and no
-  API, developer documentation, or SDK surface could be located during enrichment.
+  Surfaced as a 500 Global portfolio company and added to the API Evangelist network. The company now
+  appears inactive, its trigger.io domain no longer serves a live website (only email MX/SPF records remain)
+  and no API, developer documentation, or SDK surface could be located during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/webmynd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,7 +37,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Mobile
@@ -62,3 +62,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-status: defunct
